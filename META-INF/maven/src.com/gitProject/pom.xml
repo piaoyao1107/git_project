@@ -19,3 +19,17 @@
     <finalName>gitProject</finalName>
   </build>
 </project>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.9</version>
+        <configuration>
+            <webResources>
+                <resource>
+                    <dorectory>WebContent</directory>
+                </resource>
+            </webResources>
+        </configuration>
+    </plugin>
+</plugins>
